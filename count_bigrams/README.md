@@ -20,9 +20,11 @@ mr darcy	223
 she was	199
 
 # Cumulative frequency of the top ten bigrams
-
+./frequency.py
+2992 out of 112531, 2.60% 
 
 # How many bigrams appear only once?
-
+./once.py
+37535
 
 ```
