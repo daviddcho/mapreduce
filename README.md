@@ -1,9 +1,10 @@
 # MapReduce and Hadoop
 
-This isn't a fully distributed operation but a single-node in a pseudo-distributed operation. Each Hadoop daemon runs in a serpate Java process.
+This isn't a fully distributed operation but a single-node in a pseudo-distributed operation. 
 
 We using Pride and Prejudice as our input.
 
+## Notes
 ```
 # Format it
 hdfs namenode -format
@@ -33,9 +34,10 @@ $HADOOP_HOME/sbin/stop-dfs.sh
 ```
 
 This is where you overrode the defaultfs to hdfs://localhost:9000
+
 $HADOOP_HOME/etc/hadoop/core-site.xml
 
-Resources: 
+## Resources
 * https://www.shubhamdipt.com/blog/how-to-setup-hadoop-in-aws-ec2-instances/
 ** starting set up, also might be useful when full dis cluster
 * https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-common/ClusterSetup.html

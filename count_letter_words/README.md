@@ -6,7 +6,7 @@ Used RegEx: ^[A-Za-z]+$
 sort -k 2nr part-0000* > combined-sorted
 
 # Total number of unique terms
-cat sm-part | wc -l
+cat combined-sorted | wc -l
 6670
 
 # Fifth to last term and number of occurences 
