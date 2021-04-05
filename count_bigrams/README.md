@@ -1,5 +1,9 @@
 # Problem 4: Count bigrams
 
+### Without HADOOP bruv
+```
+cat ~/mapreduce/input/input.txt | ./mapper | sort | ./reducer
+```
 
 ### Combined all the parts and sort
 ```
