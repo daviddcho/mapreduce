@@ -2,6 +2,8 @@
 
 This isn't a fully distributed operation but a single-node in a pseudo-distributed operation. Each Hadoop daemon runs in a serpate Java process.
 
+We using Pride and Prejudice as our input.
+
 ```
 # Format it
 hdfs namenode -format
