@@ -2,13 +2,13 @@
 
 import sys
 
-current_word = None
+current_bigram = None
 current_count = 0 
-word = None
+bigram = None
 
 for line in sys.stdin:
-  line = line.strip() 
-  word, count = line.split("\t", 1) 
+  line = line.strip("\t") 
+  bigram, count = line.split("\t", 1) 
 
   # Convert count to int 
   try:
@@ -16,14 +16,14 @@ for line in sys.stdin:
   except ValueError:
     continue
   
-  if current_word == word:
+  if current_bigram == bigram:
     current_count += count
   else:
-    if current_word:
-      print("%s\t%s" % (current_word, current_count))
+    if current_bigram:
+      print("%s\t%s" % (current_bigram, current_count))
     current_count = count 
-    current_word = word 
+    current_bigram = bigram
 
 # Output the last word if needed 
-if current_word == word:
-  print("%s\t%s" % (current_word, current_count))
+if current_bigram == bigram:
+  print("%s\t%s" % (current_bigram, current_count))
