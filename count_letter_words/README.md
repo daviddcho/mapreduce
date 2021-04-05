@@ -10,9 +10,9 @@ cat sm-part | wc -l
 6670
 
 # Fifth to last term and number of occurences 
-your	464
+yards	1
 
 # First term and number of occurences 
-a	1995
+the	4509
 
 ```
