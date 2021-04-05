@@ -2,7 +2,7 @@
 
 This isn't a fully distributed operation but a single-node in a pseudo-distributed operation. 
 
-We using Pride and Prejudice as our input.
+We using Pride and Prejudice as our input data.
 
 ## Notes
 ```
