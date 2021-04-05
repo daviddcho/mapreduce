@@ -1,11 +1,14 @@
 # Problem 4: Count bigrams
 
-### Without HADOOP bruv
 ```
+# Without Hadoop
 cat ~/mapreduce/input/input.txt | ./mapper | sort | ./reducer
+
+# With Hadoop if you got it setup
+./stream.sh
 ```
 
-### Combined all the parts and sort
+### Combine all the parts and sort
 ```
 sort -k 3nr part-0000* > combined-sorted
 ```
