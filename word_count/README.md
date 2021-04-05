@@ -2,7 +2,7 @@
 
 ```
 # Sort and merge parts
-cat part-0000* | sort > sorted-merged-parts
+sort -k 2nr part-0000* > combined-sorted
 
 # Total number of unique terms
 > sorted-merged-parts | wc -l

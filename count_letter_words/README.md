@@ -3,7 +3,7 @@
 Used RegEx: ^[A-Za-z]+$
 
 ```
-cat part-0000* | sort > sm-part
+sort -k 2nr part-0000* > combined-sorted
 
 # Total number of unique terms
 cat sm-part | wc -l
