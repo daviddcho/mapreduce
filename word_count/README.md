@@ -5,12 +5,12 @@
 sort -k 2nr part-0000* > combined-sorted
 
 # Total number of unique terms
-> sorted-merged-parts | wc -l
+cat combined-sorted | wc -l
 7121
 
 # Fifth to last term and its number of occurences
-you—how	1
+youths	1
 
 # First term and its number of occurences
-1 4
+the	4509
 ```
