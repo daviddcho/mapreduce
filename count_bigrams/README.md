@@ -12,7 +12,7 @@ cat combined-sorted | wc -l
 50823
 ```
 
-# Top ten most frequent bigrams and their counts
+### Top ten most frequent bigrams and their counts
 ```
 of the	465
 to be	424
@@ -26,13 +26,13 @@ mr darcy	223
 she was	199
 ```
 
-# Cumulative frequency of the top ten bigrams
+### Cumulative frequency of the top ten bigrams
 ```
 ./frequency.py
 2992 out of 112531, 2.60% 
 ```
 
-# How many bigrams appear only once?
+### How many bigrams appear only once?
 ```
 ./once.py
 37535
