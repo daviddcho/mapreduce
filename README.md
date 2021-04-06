@@ -38,16 +38,17 @@ This is where you overrode the defaultfs to hdfs://localhost:9000
 $HADOOP_HOME/etc/hadoop/core-site.xml
 
 ## Resources
-* https://www.shubhamdipt.com/blog/how-to-setup-hadoop-in-aws-ec2-instances/
+* https://www.shubhamdipt.com/blog/how-to-setup-hadoop-in-aws-ec2-instances/ 
 ** starting set up, also might be useful when full dis cluster
-* https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-common/ClusterSetup.html
+* https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-common/ClusterSetup.html 
 ** to configure namenodes and datanodes
-* https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html
+* https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html 
 ** basic cluster setup
-* https://hadoop.apache.org/docs/stable/hadoop-streaming/HadoopStreaming.html
+* https://hadoop.apache.org/docs/stable/hadoop-streaming/HadoopStreaming.html  
 ** hadoop streaming
 * https://github.com/asmith26/python-mapreduce-examples/blob/master/word_frequencies/mapper.py
 ** python implementation
 * https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/HDFSCommands.html#User_Commands
 ** HDFS commands guide
-
+* https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html
+** HDFS architecture
