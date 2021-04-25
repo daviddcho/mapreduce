@@ -2,7 +2,7 @@
 
 ```
 # Without Hadoop
-cat ~/mapreduce/input/input.txt | ./mapper | sort | ./reducer
+cat ~/mapreduce/input/input.txt | ./mapper.py | sort | ./reducer.py
 
 # With Hadoop if you got it setup
 ./stream.sh

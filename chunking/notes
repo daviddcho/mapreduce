@@ -1,0 +1,19 @@
+straight pipes:
+real	1m38.415s
+user	1m35.573s
+sys	0m1.369s
+
+1 chunk/5 mappers:
+real	2m33.678s
+user	2m19.846s
+sys	0m7.315s
+
+5 chunks/5 mappers:
+real	2m31.861s
+user	2m17.190s
+sys	0m7.250s
+
+30 chunks /5 mappers:
+real	3m16.388s
+user	2m8.880s
+sys	0m9.428s
