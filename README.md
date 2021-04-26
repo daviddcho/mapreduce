@@ -50,3 +50,5 @@ $HADOOP_HOME/etc/hadoop/core-site.xml
 ** HDFS commands guide
 * https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html
 ** HDFS architecture
+
+In conclusion, just use pipes or something
