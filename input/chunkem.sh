@@ -6,7 +6,7 @@ dir=chunks
 
 # Create your chunks
 # Then put your chunks in hdfs
-for i in {1..5}; do 
+for i in {1..6}; do 
  n=$(($i*$nsize))
  echo "Starting chunk $n"
  mkdir chunks${n}

@@ -12,9 +12,7 @@ hdfs namenode -format
 # Start NameNode daemon and DataNode daemon:
 $HADOOP_HOME/sbin/start-dfs.sh
 
-# Logs 
-$HADOOP_HOME/logs
-
+# Then create your user and such
 # Run MapReduce with hadoop streaming
 ./stream.sh
 
