@@ -5,5 +5,5 @@ split -n 5 input.txt
 
 If you wanna automate your chunking
 ```
-./chunkem 
+./chunkem.sh
 ```
