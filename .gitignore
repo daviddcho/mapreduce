@@ -3,3 +3,5 @@ env
 input/biginput.txt
 docs
 report.md
+report2.md
+input/*
